@@ -40,7 +40,7 @@ export class NiaPackquiz implements QuizQuestionProvider {
           'It is merging all changes directly into the main code and is important because it speeds up develpoment by avoiding unnecessary review or debugging steps',
         ],
       ]),
-      AnswerChoice.UNANSWERED,
+      AnswerChoice.B,
     ); // Replace `UNANSWERED` with the correct answer.
   }
   private static makeQuestion1(): QuizQuestion {
@@ -53,7 +53,7 @@ export class NiaPackquiz implements QuizQuestionProvider {
         [AnswerChoice.C, 'Multiple languages like Python, JavaScript, and C++'],
         [AnswerChoice.D, 'C++'],
       ]),
-      AnswerChoice.UNANSWERED,
+      AnswerChoice.C,
     ); // Replace `UNANSWERED` with the correct answer.
   }
   private static makeQuestion2(): QuizQuestion {
@@ -69,7 +69,7 @@ export class NiaPackquiz implements QuizQuestionProvider {
         [AnswerChoice.C, 'A method for creating a local  copy of a repository'],
         [AnswerChoice.D, 'A tool to schedule automatic repository backups'],
       ]),
-      AnswerChoice.UNANSWERED,
+      AnswerChoice.A,
     ); // Replace `UNANSWERED` with the correct answer.
   }
 }
