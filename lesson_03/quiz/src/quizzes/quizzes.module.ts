@@ -9,6 +9,7 @@ import { EvanPhilakhongQuiz } from './evan_philakhong_quiz.js';
 import { EzraQuiz } from './ezra_quiz.js';
 import { JasonWatsonQuiz } from './jason_watson_quiz.js';
 import { Jbeyquiz } from './jbeyquiz.js';
+import { KarensQuiz } from './karen_alabi_quiz.js';
 import { JeremiahWingQuiz } from './jeremiah_wing_quiz.js';
 import { KhaylaSaundersQuiz } from './khayla_quiz.js';
 import { MeikoStephensQuiz } from './meiko_stephens_quiz.js';
@@ -26,6 +27,7 @@ const QUIZ_PROVIDERS = [
   MeikoStephensQuiz,
   MercedesMathewsQuiz,
   Jbeyquiz,
+  KarensQuiz,
   MontezBradleyQuiz,
   Bryanasingletonbarnhart,
   EzraQuiz,
