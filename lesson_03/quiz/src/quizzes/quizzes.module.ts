@@ -17,6 +17,7 @@ import { MercedesMathewsQuiz } from './mercedes_mathews_quiz.js';
 import { OliviaJamesQuiz } from './olivia_james_quiz.js';
 import { MontezBradleyQuiz } from './montez_quiz.js'; 
 import { RasheedMillerQuiz } from './rasheed_miller_quiz.js';
+import { AnanatawaQuiz } from './ananatawa_quiz.js';
 
 export const Quizzes = Symbol.for('Quizzes');
 
@@ -37,6 +38,7 @@ const QUIZ_PROVIDERS = [
   KhaylaSaundersQuiz,
   DylanLaffertyQuiz,
   RasheedMillerQuiz,
+  AnanatawaQuiz,
   OliviaJamesQuiz,
   ChanelHuttQuiz,
   JeremiahWingQuiz,
