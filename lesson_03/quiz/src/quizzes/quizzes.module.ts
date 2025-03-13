@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+import { Bryanasingletonbarnhart } from './ bryana_singleton-barnhart_quiz.js';
 import { AnotherQuiz } from './another_quiz.js';
 import { AnthonyMaysQuiz } from './anthony_mays_quiz.js';
 import { DylanLaffertyQuiz } from './dylan_lafferty_quiz.js';
@@ -24,6 +25,7 @@ const QUIZ_PROVIDERS = [
   MeikoStephensQuiz,
   MercedesMathewsQuiz,
   Jbeyquiz,
+  Bryanasingletonbarnhart,
   EzraQuiz,
   DavidAdenaikeQuiz,
   EvanPhilakhongQuiz,
