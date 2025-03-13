@@ -14,6 +14,7 @@ import { JeremiahWingQuiz } from './jeremiah_wing_quiz.js';
 import { KhaylaSaundersQuiz } from './khayla_quiz.js';
 import { MeikoStephensQuiz } from './meiko_stephens_quiz.js';
 import { MercedesMathewsQuiz } from './mercedes_mathews_quiz.js';
+import { OliviaJamesQuiz } from './olivia_james_quiz.js';
 import { MontezBradleyQuiz } from './montez_quiz.js'; 
 import { RasheedMillerQuiz } from './rasheed_miller_quiz.js';
 
@@ -36,6 +37,7 @@ const QUIZ_PROVIDERS = [
   KhaylaSaundersQuiz,
   DylanLaffertyQuiz,
   RasheedMillerQuiz,
+  OliviaJamesQuiz,
   ChanelHuttQuiz,
   JeremiahWingQuiz,
   JasonWatsonQuiz,
