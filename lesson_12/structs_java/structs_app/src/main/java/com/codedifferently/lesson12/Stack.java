@@ -15,14 +15,22 @@ public class Stack {
   }
 
   public int pop() {
-    return 0;
+    if (isEmpty()) {
+      throw new RuntimeException("Stack is empty");
+    }
+    int value = top.val;
+    top = top.next;
+    return value;
   }
 
   public int peek() {
-    return 0;
+    if (isEmpty()) {
+      throw new RuntimeException("Stack is empty");
+    }
+    return top.val;
   }
 
   public boolean isEmpty() {
-    return true;
+    return top == null;
   }
 }
