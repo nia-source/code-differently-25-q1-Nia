@@ -5,6 +5,7 @@ import { ChanelHuttLoader } from './chanel_hutt_loader.js';
 import { DavidAdenaikeLoader } from './david_adenaike_loader.js';
 import { DavisDLoader } from './davis_d_loader.js';
 import { DylanLaffertysLoader } from './dylan_lafferty_loaders.js';
+import { EzraNyabutiLoaders } from './ezra_nyabuti_loaders.js';
 import { MeikoStephensLoader } from './meiko_stephens_loader.js';
 import { NiaPackLoader } from './nia_pack_loader.js';
 import { JBeyLoader } from './JBey_loader.js';
@@ -23,6 +24,7 @@ const LOADER_PROVIDERS = [
   NiaPackLoader,
   BryanaSingletonBarnhartLoader,
   DylanLaffertysLoader,
+  EzraNyabutiLoaders,
   DavisDLoader,
   ChanelHuttLoader,
   JBeyLoader,
