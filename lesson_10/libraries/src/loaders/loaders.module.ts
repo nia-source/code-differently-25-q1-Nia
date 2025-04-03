@@ -8,6 +8,7 @@ import { DylanLaffertysLoader } from './dylan_lafferty_loaders.js';
 import { MeikoStephensLoader } from './meiko_stephens_loader.js';
 import { NiaPackLoader } from './nia_pack_loader.js';
 import { JBeyLoader } from './JBey_loader.js';
+import { JustinEklundLoader } from './justin_eklund_loader.js';
 import { KarenAlabiLoader } from './karen_alabi_loader.js';
 import { MercedesMathewsLoader } from './mercedes_mathews_loader.js';
 import { RasheedMillerLoader } from './rasheed_miller_loader.js';
@@ -25,6 +26,7 @@ const LOADER_PROVIDERS = [
   DavisDLoader,
   ChanelHuttLoader,
   JBeyLoader,
+  JustinEklundLoader,
   MercedesMathewsLoader,
   JasonWatsonLoader,
   KarenAlabiLoader,
@@ -47,3 +49,4 @@ const LOADER_PROVIDERS = [
   exports: [Loaders],
 })
 export class LoadersModule {}
+// got assistance from ai and copilot aswell as Meiko ,Mercedes and Dillon
