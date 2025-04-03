@@ -9,6 +9,7 @@ import { KarenAlabiLoader } from './karen_alabi_loader.js';
 import { MercedesMathewsLoader } from './mercedes_mathews_loader.js';
 import { RasheedMillerLoader } from './rasheed_miller_loader.js';
 import { MontezBLoader } from './montez_b_loaders.js';
+import { JasonWatsonLoader } from './jason_watson_loader.js';
 
 export const Loaders = Symbol.for('Loaders');
 
@@ -19,6 +20,7 @@ const LOADER_PROVIDERS = [
   ChanelHuttLoader,
   JBeyLoader,
   MercedesMathewsLoader,
+  JasonWatsonLoader,
   KarenAlabiLoader,
   RasheedMillerLoader,
   DavidAdenaikeLoader,
