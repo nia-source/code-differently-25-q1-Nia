@@ -14,6 +14,7 @@ import { KarenAlabiLoader } from './karen_alabi_loader.js';
 import { MercedesMathewsLoader } from './mercedes_mathews_loader.js';
 import { RasheedMillerLoader } from './rasheed_miller_loader.js';
 import { MontezBLoader } from './montez_b_loaders.js';
+import { EvanPhilakhongLoader } from './evan_philakhong_loader.js';
 import { JasonWatsonLoader } from './jason_watson_loader.js';
 import { OliviaJamesLoader } from './olivia_james_loader.js';
 
@@ -30,6 +31,7 @@ const LOADER_PROVIDERS = [
   JBeyLoader,
   JustinEklundLoader,
   MercedesMathewsLoader,
+  EvanPhilakhongLoader,
   JasonWatsonLoader,
   KarenAlabiLoader,
   RasheedMillerLoader,
