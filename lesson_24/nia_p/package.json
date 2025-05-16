@@ -4,5 +4,9 @@
     "express": "^5.1.0",
     "gitignore": "^0.7.0",
     "node": "^22.15.0"
-  }
+  },
+  "scripts": {
+  "start": "node server.js"
 }
+}
+
